@@ -1,0 +1,364 @@
+Prefix(:=<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology>
+Import(<http://ontosoft.org/software>)
+Annotation(rdfs:comment "Программное обеспечение")
+
+Declaration(Class(:Антивирусные_программы))
+Declaration(Class(:Архиваторы))
+Declaration(Class(:Базовое_ПО))
+Declaration(Class(:Диагностика))
+Declaration(Class(:Инструментальное_ПО))
+Declaration(Class(:Интегрированные_среды_программирования))
+Declaration(Class(:Компьютеры))
+Declaration(Class(:Оболочки_ОС))
+Declaration(Class(:Опреационные_системы))
+Declaration(Class(:Поисковые_в_сети))
+Declaration(Class(:Программное_обеспечение))
+Declaration(Class(:Сервисное_ПО))
+Declaration(Class(:Сетевые_ОС))
+Declaration(Class(:Системное_ПО))
+Declaration(Class(:Телефоны))
+Declaration(ObjectProperty(:Color))
+Declaration(ObjectProperty(:Heart))
+Declaration(ObjectProperty(:Password_Manager))
+Declaration(ObjectProperty(:Perfomance))
+Declaration(ObjectProperty(:RAM))
+Declaration(ObjectProperty(:Terminal))
+Declaration(ObjectProperty(:Version))
+Declaration(ObjectProperty(:Weighs))
+Declaration(DataProperty(:Android_10))
+Declaration(DataProperty(:Android_11))
+Declaration(DataProperty(:Kali))
+Declaration(DataProperty(:MIUI_12.5.15))
+Declaration(DataProperty(:MIUI_12.5.20))
+Declaration(DataProperty(:Mint))
+Declaration(DataProperty(:Rayzen_5))
+Declaration(DataProperty(:Rayzen_7))
+Declaration(DataProperty(:Solaris))
+Declaration(DataProperty(:Ubuntu))
+Declaration(DataProperty(:Windows_10))
+Declaration(DataProperty(:Windows_11))
+Declaration(DataProperty(:Xenix))
+Declaration(DataProperty(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#10.20.1>))
+Declaration(DataProperty(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#15.5.10>))
+Declaration(DataProperty(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#20.10.1>))
+Declaration(DataProperty(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#5.5.0>))
+Declaration(NamedIndividual(:AIDA64))
+Declaration(NamedIndividual(:Acer_Aspire_3))
+Declaration(NamedIndividual(:Acer_Aspire_5_A515))
+Declaration(NamedIndividual(:Dr.Web))
+Declaration(NamedIndividual(:Google))
+Declaration(NamedIndividual(:Kaspersky))
+Declaration(NamedIndividual(:Linux))
+Declaration(NamedIndividual(:Nigma))
+Declaration(NamedIndividual(:Norton_Antivirus))
+Declaration(NamedIndividual(:Norton_Commander))
+Declaration(NamedIndividual(:OCCT))
+Declaration(NamedIndividual(:PyCharm))
+Declaration(NamedIndividual(:Rambler))
+Declaration(NamedIndividual(:Total_Commander))
+Declaration(NamedIndividual(:Unix))
+Declaration(NamedIndividual(:VMWare))
+Declaration(NamedIndividual(:VirtualBox))
+Declaration(NamedIndividual(:Visual_Studio))
+Declaration(NamedIndividual(:WinRAR))
+Declaration(NamedIndividual(:Windows))
+Declaration(NamedIndividual(:Xiomi_Redmi_Note_10S))
+Declaration(NamedIndividual(:Xiomi_Redmi_Note_11S))
+Declaration(NamedIndividual(:Yandex))
+Declaration(NamedIndividual(:bing))
+Declaration(NamedIndividual(:mail.ru))
+Declaration(NamedIndividual(:yahoo))
+Declaration(NamedIndividual(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#7-Zip>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :Color (:Color)
+
+ObjectPropertyDomain(:Color ObjectSomeValuesFrom(:Color :Телефоны))
+ObjectPropertyRange(:Color ObjectSomeValuesFrom(:Color :Телефоны))
+
+# Object Property: :Heart (:Heart)
+
+ObjectPropertyDomain(:Heart ObjectSomeValuesFrom(:Heart :Компьютеры))
+ObjectPropertyRange(:Heart ObjectSomeValuesFrom(:Heart :Компьютеры))
+
+# Object Property: :Password_Manager (:Password_Manager)
+
+ObjectPropertyDomain(:Password_Manager ObjectSomeValuesFrom(:Password_Manager :Антивирусные_программы))
+ObjectPropertyDomain(:Password_Manager ObjectSomeValuesFrom(:Password_Manager :Поисковые_в_сети))
+ObjectPropertyRange(:Password_Manager ObjectSomeValuesFrom(:Password_Manager :Антивирусные_программы))
+ObjectPropertyRange(:Password_Manager ObjectSomeValuesFrom(:Password_Manager :Поисковые_в_сети))
+
+# Object Property: :Perfomance (:Perfomance)
+
+ObjectPropertyDomain(:Perfomance ObjectSomeValuesFrom(:Perfomance :Опреационные_системы))
+ObjectPropertyRange(:Perfomance ObjectSomeValuesFrom(:Perfomance :Опреационные_системы))
+
+# Object Property: :RAM (:RAM)
+
+ObjectPropertyDomain(:RAM ObjectSomeValuesFrom(:RAM :Компьютеры))
+ObjectPropertyRange(:RAM ObjectSomeValuesFrom(:RAM :Компьютеры))
+
+# Object Property: :Terminal (:Terminal)
+
+ObjectPropertyDomain(:Terminal ObjectSomeValuesFrom(:Terminal :Опреационные_системы))
+ObjectPropertyRange(:Terminal ObjectSomeValuesFrom(:Terminal :Опреационные_системы))
+
+# Object Property: :Version (:Version)
+
+ObjectPropertyDomain(:Version ObjectSomeValuesFrom(:Version :Архиваторы))
+ObjectPropertyDomain(:Version ObjectSomeValuesFrom(:Version :Оболочки_ОС))
+ObjectPropertyDomain(:Version ObjectSomeValuesFrom(:Version :Поисковые_в_сети))
+ObjectPropertyDomain(:Version ObjectSomeValuesFrom(:Version :Сетевые_ОС))
+ObjectPropertyDomain(:Version ObjectSomeValuesFrom(:Version :Телефоны))
+ObjectPropertyRange(:Version ObjectSomeValuesFrom(:Version :Архиваторы))
+ObjectPropertyRange(:Version ObjectSomeValuesFrom(:Version :Оболочки_ОС))
+ObjectPropertyRange(:Version ObjectSomeValuesFrom(:Version :Поисковые_в_сети))
+ObjectPropertyRange(:Version ObjectSomeValuesFrom(:Version :Сетевые_ОС))
+ObjectPropertyRange(:Version ObjectSomeValuesFrom(:Version :Телефоны))
+
+# Object Property: :Weighs (:Weighs)
+
+ObjectPropertyDomain(:Weighs ObjectSomeValuesFrom(:Weighs :Антивирусные_программы))
+ObjectPropertyDomain(:Weighs ObjectSomeValuesFrom(:Weighs :Архиваторы))
+ObjectPropertyDomain(:Weighs ObjectSomeValuesFrom(:Weighs :Оболочки_ОС))
+ObjectPropertyDomain(:Weighs ObjectSomeValuesFrom(:Weighs :Сетевые_ОС))
+ObjectPropertyRange(:Weighs ObjectSomeValuesFrom(:Weighs :Антивирусные_программы))
+ObjectPropertyRange(:Weighs ObjectSomeValuesFrom(:Weighs :Архиваторы))
+ObjectPropertyRange(:Weighs ObjectSomeValuesFrom(:Weighs :Оболочки_ОС))
+ObjectPropertyRange(:Weighs ObjectSomeValuesFrom(:Weighs :Сетевые_ОС))
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :Ubuntu (:Ubuntu)
+
+FunctionalDataProperty(:Ubuntu)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :Антивирусные_программы (:Антивирусные_программы)
+
+SubClassOf(:Антивирусные_программы :Сервисное_ПО)
+
+# Class: :Архиваторы (:Архиваторы)
+
+SubClassOf(:Архиваторы :Сервисное_ПО)
+
+# Class: :Базовое_ПО (:Базовое_ПО)
+
+SubClassOf(:Базовое_ПО :Системное_ПО)
+
+# Class: :Диагностика (:Диагностика)
+
+SubClassOf(:Диагностика :Сервисное_ПО)
+
+# Class: :Инструментальное_ПО (:Инструментальное_ПО)
+
+SubClassOf(:Инструментальное_ПО :Программное_обеспечение)
+
+# Class: :Интегрированные_среды_программирования (:Интегрированные_среды_программирования)
+
+SubClassOf(:Интегрированные_среды_программирования :Инструментальное_ПО)
+
+# Class: :Компьютеры (:Компьютеры)
+
+SubClassOf(:Компьютеры :Программное_обеспечение)
+
+# Class: :Оболочки_ОС (:Оболочки_ОС)
+
+SubClassOf(:Оболочки_ОС :Базовое_ПО)
+
+# Class: :Опреационные_системы (:Опреационные_системы)
+
+SubClassOf(:Опреационные_системы :Базовое_ПО)
+
+# Class: :Поисковые_в_сети (:Поисковые_в_сети)
+
+SubClassOf(:Поисковые_в_сети :Сервисное_ПО)
+
+# Class: :Сервисное_ПО (:Сервисное_ПО)
+
+SubClassOf(:Сервисное_ПО :Системное_ПО)
+
+# Class: :Сетевые_ОС (:Сетевые_ОС)
+
+SubClassOf(:Сетевые_ОС :Базовое_ПО)
+
+# Class: :Системное_ПО (:Системное_ПО)
+
+SubClassOf(:Системное_ПО :Программное_обеспечение)
+
+# Class: :Телефоны (:Телефоны)
+
+SubClassOf(:Телефоны :Программное_обеспечение)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :AIDA64 (:AIDA64)
+
+ClassAssertion(:Диагностика :AIDA64)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#20.10.1> :AIDA64 "")
+
+# Individual: :Acer_Aspire_3 (:Acer_Aspire_3)
+
+ClassAssertion(:Компьютеры :Acer_Aspire_3)
+DataPropertyAssertion(:Rayzen_5 :Acer_Aspire_3 "3000 Series")
+
+# Individual: :Acer_Aspire_5_A515 (:Acer_Aspire_5_A515)
+
+ClassAssertion(:Компьютеры :Acer_Aspire_5_A515)
+DataPropertyAssertion(:Rayzen_7 :Acer_Aspire_5_A515 "4000 Series")
+
+# Individual: :Dr.Web (:Dr.Web)
+
+ClassAssertion(:Антивирусные_программы :Dr.Web)
+DataPropertyAssertion(:Android_10 :Dr.Web "")
+DataPropertyAssertion(:Android_11 :Dr.Web "")
+
+# Individual: :Google (:Google)
+
+ClassAssertion(:Поисковые_в_сети :Google)
+DataPropertyAssertion(:Android_10 :Google "")
+
+# Individual: :Kaspersky (:Kaspersky)
+
+ClassAssertion(:Антивирусные_программы :Kaspersky)
+DataPropertyAssertion(:Windows_10 :Kaspersky "")
+DataPropertyAssertion(:Windows_11 :Kaspersky "")
+
+# Individual: :Linux (:Linux)
+
+ClassAssertion(:Опреационные_системы :Linux)
+DataPropertyAssertion(:Kali :Linux "")
+DataPropertyAssertion(:Mint :Linux "")
+DataPropertyAssertion(:Ubuntu :Linux "")
+
+# Individual: :Nigma (:Nigma)
+
+ClassAssertion(:Поисковые_в_сети :Nigma)
+DataPropertyAssertion(:Kali :Nigma "")
+
+# Individual: :Norton_Antivirus (:Norton_Antivirus)
+
+ClassAssertion(:Антивирусные_программы :Norton_Antivirus)
+DataPropertyAssertion(:Kali :Norton_Antivirus "")
+DataPropertyAssertion(:Mint :Norton_Antivirus "")
+DataPropertyAssertion(:Solaris :Norton_Antivirus "")
+DataPropertyAssertion(:Ubuntu :Norton_Antivirus "")
+DataPropertyAssertion(:Xenix :Norton_Antivirus "")
+
+# Individual: :Norton_Commander (:Norton_Commander)
+
+ClassAssertion(:Оболочки_ОС :Norton_Commander)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#5.5.0> :Norton_Commander "")
+
+# Individual: :OCCT (:OCCT)
+
+ClassAssertion(:Диагностика :OCCT)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#15.5.10> :OCCT "")
+
+# Individual: :PyCharm (:PyCharm)
+
+ClassAssertion(:Интегрированные_среды_программирования :PyCharm)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#10.20.1> :PyCharm "")
+
+# Individual: :Rambler (:Rambler)
+
+ClassAssertion(:Поисковые_в_сети :Rambler)
+DataPropertyAssertion(:Mint :Rambler "")
+
+# Individual: :Total_Commander (:Total_Commander)
+
+ClassAssertion(:Оболочки_ОС :Total_Commander)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#20.10.1> :Total_Commander "")
+
+# Individual: :Unix (:Unix)
+
+ClassAssertion(:Опреационные_системы :Unix)
+DataPropertyAssertion(:Solaris :Unix "")
+DataPropertyAssertion(:Xenix :Unix "")
+
+# Individual: :VMWare (:VMWare)
+
+ClassAssertion(:Сетевые_ОС :VMWare)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#5.5.0> :VMWare "")
+
+# Individual: :VirtualBox (:VirtualBox)
+
+ClassAssertion(:Сетевые_ОС :VirtualBox)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#10.20.1> :VirtualBox "")
+
+# Individual: :Visual_Studio (:Visual_Studio)
+
+ClassAssertion(:Интегрированные_среды_программирования :Visual_Studio)
+
+# Individual: :WinRAR (:WinRAR)
+
+ClassAssertion(:Архиваторы :WinRAR)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#20.10.1> :WinRAR "")
+
+# Individual: :Windows (:Windows)
+
+ClassAssertion(:Опреационные_системы :Windows)
+DataPropertyAssertion(:Windows_10 :Windows "")
+DataPropertyAssertion(:Windows_11 :Windows "")
+
+# Individual: :Xiomi_Redmi_Note_10S (:Xiomi_Redmi_Note_10S)
+
+ClassAssertion(:Телефоны :Xiomi_Redmi_Note_10S)
+DataPropertyAssertion(:Android_10 :Xiomi_Redmi_Note_10S "")
+DataPropertyAssertion(:MIUI_12.5.20 :Xiomi_Redmi_Note_10S "")
+
+# Individual: :Xiomi_Redmi_Note_11S (:Xiomi_Redmi_Note_11S)
+
+ClassAssertion(:Телефоны :Xiomi_Redmi_Note_11S)
+DataPropertyAssertion(:Android_11 :Xiomi_Redmi_Note_11S "")
+DataPropertyAssertion(:MIUI_12.5.15 :Xiomi_Redmi_Note_11S "")
+
+# Individual: :Yandex (:Yandex)
+
+ClassAssertion(:Поисковые_в_сети :Yandex)
+DataPropertyAssertion(:Ubuntu :Yandex "")
+
+# Individual: :bing (:bing)
+
+ClassAssertion(:Поисковые_в_сети :bing)
+DataPropertyAssertion(:Windows_11 :bing "")
+
+# Individual: :mail.ru (:mail.ru)
+
+ClassAssertion(:Поисковые_в_сети :mail.ru)
+DataPropertyAssertion(:Windows_10 :mail.ru "")
+
+# Individual: :yahoo (:yahoo)
+
+ClassAssertion(:Поисковые_в_сети :yahoo)
+DataPropertyAssertion(:Solaris :yahoo "")
+
+# Individual: <http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#7-Zip> (<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#7-Zip>)
+
+ClassAssertion(:Архиваторы <http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#7-Zip>)
+DataPropertyAssertion(<http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#10.20.1> <http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology#7-Zip> "")
+
+
+)

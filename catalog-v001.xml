@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://ontosoft.org/softwareCategories" uri="laba%20222.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1649342204095" name="http://ontosoft.org/software" uri="ontosoft-v1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1649342204095" name="duplicate:http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology" uri="1231345.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1649342204095" name="duplicate:http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology" uri="qwerty.owl"/>
+    </group>
+</catalog>

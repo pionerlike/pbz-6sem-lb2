@@ -1,0 +1,820 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/miraf/ontologies/2022/2/Software_ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://ontosoft.org/software</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Программное обеспечение</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Антивирусные_программы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Архиваторы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Базовое_ПО"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Диагностика"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Инструментальное_ПО"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Интегрированные_среды_программирования"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Компьютеры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Оболочки_ОС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Опреационные_системы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Поисковые_в_сети"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Программное_обеспечение"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сервисное_ПО"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сетевые_ОС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Системное_ПО"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Телефоны"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Heart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Password_Manager"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Perfomance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Terminal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Version"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Weighs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Android_10"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Android_11"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Kali"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MIUI_12.5.15"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MIUI_12.5.20"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rayzen_5"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rayzen_7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Solaris"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ubuntu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Windows_10"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Windows_11"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Xenix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#10.20.1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#15.5.10"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#20.10.1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#5.5.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AIDA64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acer_Aspire_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acer_Aspire_5_A515"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr.Web"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kaspersky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nigma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Norton_Commander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OCCT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PyCharm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rambler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Total_Commander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VMWare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VirtualBox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_Studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WinRAR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_10S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_11S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yandex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mail.ru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yahoo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12.29.1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7-Zip"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Антивирусные_программы"/>
+        <Class IRI="#Сервисное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Архиваторы"/>
+        <Class IRI="#Сервисное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Базовое_ПО"/>
+        <Class IRI="#Системное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Диагностика"/>
+        <Class IRI="#Сервисное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Инструментальное_ПО"/>
+        <Class IRI="#Программное_обеспечение"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Интегрированные_среды_программирования"/>
+        <Class IRI="#Инструментальное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Компьютеры"/>
+        <Class IRI="#Программное_обеспечение"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Оболочки_ОС"/>
+        <Class IRI="#Базовое_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Опреационные_системы"/>
+        <Class IRI="#Базовое_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Поисковые_в_сети"/>
+        <Class IRI="#Сервисное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сервисное_ПО"/>
+        <Class IRI="#Системное_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сетевые_ОС"/>
+        <Class IRI="#Базовое_ПО"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Системное_ПО"/>
+        <Class IRI="#Программное_обеспечение"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Телефоны"/>
+        <Class IRI="#Программное_обеспечение"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Диагностика"/>
+        <NamedIndividual IRI="#AIDA64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Компьютеры"/>
+        <NamedIndividual IRI="#Acer_Aspire_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Компьютеры"/>
+        <NamedIndividual IRI="#Acer_Aspire_5_A515"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Антивирусные_программы"/>
+        <NamedIndividual IRI="#Dr.Web"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Антивирусные_программы"/>
+        <NamedIndividual IRI="#Kaspersky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Опреационные_системы"/>
+        <NamedIndividual IRI="#Linux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#Nigma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Антивирусные_программы"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оболочки_ОС"/>
+        <NamedIndividual IRI="#Norton_Commander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Диагностика"/>
+        <NamedIndividual IRI="#OCCT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Интегрированные_среды_программирования"/>
+        <NamedIndividual IRI="#PyCharm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#Rambler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оболочки_ОС"/>
+        <NamedIndividual IRI="#Total_Commander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Опреационные_системы"/>
+        <NamedIndividual IRI="#Unix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сетевые_ОС"/>
+        <NamedIndividual IRI="#VMWare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сетевые_ОС"/>
+        <NamedIndividual IRI="#VirtualBox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Интегрированные_среды_программирования"/>
+        <NamedIndividual IRI="#Visual_Studio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Архиваторы"/>
+        <NamedIndividual IRI="#WinRAR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Опреационные_системы"/>
+        <NamedIndividual IRI="#Windows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Телефоны"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_10S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Телефоны"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_11S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#Yandex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#bing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#mail.ru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поисковые_в_сети"/>
+        <NamedIndividual IRI="#yahoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Архиваторы"/>
+        <NamedIndividual IRI="#7-Zip"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Version"/>
+        <NamedIndividual IRI="#bing"/>
+        <NamedIndividual IRI="#bing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Version"/>
+        <NamedIndividual IRI="#12.29.1.1"/>
+        <NamedIndividual IRI="#12.29.1.1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#20.10.1"/>
+        <NamedIndividual IRI="#AIDA64"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rayzen_5"/>
+        <NamedIndividual IRI="#Acer_Aspire_3"/>
+        <Literal>3000 Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rayzen_7"/>
+        <NamedIndividual IRI="#Acer_Aspire_5_A515"/>
+        <Literal>4000 Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Android_10"/>
+        <NamedIndividual IRI="#Dr.Web"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Android_11"/>
+        <NamedIndividual IRI="#Dr.Web"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Android_10"/>
+        <NamedIndividual IRI="#Google"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_10"/>
+        <NamedIndividual IRI="#Kaspersky"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_11"/>
+        <NamedIndividual IRI="#Kaspersky"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kali"/>
+        <NamedIndividual IRI="#Linux"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mint"/>
+        <NamedIndividual IRI="#Linux"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ubuntu"/>
+        <NamedIndividual IRI="#Linux"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kali"/>
+        <NamedIndividual IRI="#Nigma"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kali"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mint"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solaris"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ubuntu"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Xenix"/>
+        <NamedIndividual IRI="#Norton_Antivirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#5.5.0"/>
+        <NamedIndividual IRI="#Norton_Commander"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#15.5.10"/>
+        <NamedIndividual IRI="#OCCT"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#10.20.1"/>
+        <NamedIndividual IRI="#PyCharm"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mint"/>
+        <NamedIndividual IRI="#Rambler"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#20.10.1"/>
+        <NamedIndividual IRI="#Total_Commander"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solaris"/>
+        <NamedIndividual IRI="#Unix"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Xenix"/>
+        <NamedIndividual IRI="#Unix"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#5.5.0"/>
+        <NamedIndividual IRI="#VMWare"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#10.20.1"/>
+        <NamedIndividual IRI="#VirtualBox"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#20.10.1"/>
+        <NamedIndividual IRI="#WinRAR"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_10"/>
+        <NamedIndividual IRI="#Windows"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_11"/>
+        <NamedIndividual IRI="#Windows"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Android_10"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_10S"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MIUI_12.5.20"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_10S"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Android_11"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_11S"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MIUI_12.5.15"/>
+        <NamedIndividual IRI="#Xiomi_Redmi_Note_11S"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ubuntu"/>
+        <NamedIndividual IRI="#Yandex"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_11"/>
+        <NamedIndividual IRI="#bing"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Windows_10"/>
+        <NamedIndividual IRI="#mail.ru"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solaris"/>
+        <NamedIndividual IRI="#yahoo"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#10.20.1"/>
+        <NamedIndividual IRI="#7-Zip"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Color"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Color"/>
+            <Class IRI="#Телефоны"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Heart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Heart"/>
+            <Class IRI="#Компьютеры"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Password_Manager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Password_Manager"/>
+            <Class IRI="#Антивирусные_программы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Password_Manager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Password_Manager"/>
+            <Class IRI="#Поисковые_в_сети"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Perfomance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Perfomance"/>
+            <Class IRI="#Опреационные_системы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RAM"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RAM"/>
+            <Class IRI="#Компьютеры"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Terminal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Terminal"/>
+            <Class IRI="#Опреационные_системы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Архиваторы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Оболочки_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Поисковые_в_сети"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Сетевые_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Телефоны"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Антивирусные_программы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Архиваторы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Оболочки_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Сетевые_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Color"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Color"/>
+            <Class IRI="#Телефоны"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Heart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Heart"/>
+            <Class IRI="#Компьютеры"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Password_Manager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Password_Manager"/>
+            <Class IRI="#Антивирусные_программы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Password_Manager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Password_Manager"/>
+            <Class IRI="#Поисковые_в_сети"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Perfomance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Perfomance"/>
+            <Class IRI="#Опреационные_системы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RAM"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RAM"/>
+            <Class IRI="#Компьютеры"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Terminal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Terminal"/>
+            <Class IRI="#Опреационные_системы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Архиваторы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Оболочки_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Поисковые_в_сети"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Сетевые_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Version"/>
+            <Class IRI="#Телефоны"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Антивирусные_программы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Архиваторы"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Оболочки_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Weighs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Weighs"/>
+            <Class IRI="#Сетевые_ОС"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Ubuntu"/>
+    </FunctionalDataProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
